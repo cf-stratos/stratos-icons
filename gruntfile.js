@@ -9,15 +9,15 @@ module.exports = function(grunt) {
         destScss: 'dist/scss',
         destLess: 'dist/less',
     		options: {
-    			font: 'eos-icons',
+    			font: 'stratos-icons',
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
           normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
-          metadata: 'something here',
+          metadata: 'Stratos Icons',
           templateOptions: {
-            baseClass: "eos-icons",
+            baseClass: "stratos-icons",
             classPrefix: "eos-",
             template: 'templates/css-template.css',
             iconsStyles: false
