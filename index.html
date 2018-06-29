@@ -1,0 +1,574 @@
+<html>
+
+<head>
+  <link href="https://nwmac.github.io/stratos-icons/dist/css/stratos-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+      font-family: Helvetica, Arial;
+    }
+
+    i.stratos-icons,
+    i.material-icons {
+      font-size: 32px;
+      width: 32px;
+      height: 32px;
+      overflow: hidden;
+    }
+
+    table {
+      border-spacing: 10px;
+      border-collapse: collapse;
+      border: 1px solid #ccc;
+    }
+
+    tr {
+      border: 1px solid #ccc;
+    }
+
+    td,
+    th {
+      padding: 10px;
+      text-align: left;
+    }
+
+    td:first-child {
+      text-align: center;
+    }
+
+    tr td:first-child {
+      padding-left: 12px;
+    }
+
+    tr.custom td:first-child {
+      border-left: 3px solid red;
+      padding-left: 10px;
+    }
+
+    th {
+      background-color: #f8f8f8;
+    }
+  </style>
+  <title>Stratos Icons</title>
+</head>
+
+<body>
+  <h1>Stratos icons</h1>
+
+  <p>This page lists all of the icons used in Stratos.</p>
+
+  <table>
+    <tr>
+      <th>Icon</th>
+      <th>Name</th>
+      <th>Font</th>
+      <th>Usage</th>
+      <th>Notes</th>
+    </tr>
+
+    <!-- Applications -->
+    <tr>
+      <td>
+        <i class="material-icons">apps</i>
+      </td>
+      <td>apps</td>
+      <td>material</td>
+      <td>Applications</td>
+      <td>-</td>
+    </tr>
+    <!-- Marketplace -->
+    <tr>
+      <td>
+        <i class="material-icons">store</i>
+      </td>
+      <td>store</td>
+      <td>material</td>
+      <td>Service Marketplace (catalog) - see: <a target="_blank" href="https://docs.cloudfoundry.org/devguide/services">Service and Service Instances</a></td>
+      <td>-</td>
+    </tr>
+    <!-- Services -->
+    <tr>
+      <td>
+        <i class="stratos-icons">service</i>
+      </td>
+      <td>service</td>
+      <td>stratos</td>
+      <td>Service Instances - see: <a target="_blank" href="https://docs.cloudfoundry.org/devguide/services">Service and Service Instances</a></td>
+      <td>
+        <a target="_blank" href="https://nwmac.github.io/stratos-icons/svg/service.svg">SVG</a>
+      </td>
+    </tr>
+    <tr>
+        <td>
+          <i class="material-icons">library_books</i>
+        </td>
+        <td>library_books</td>
+        <td>material</td>
+        <td>Service Instances - Indicates an instance of a service - see: <a target="_blank" href="https://docs.cloudfoundry.org/devguide/services">Service and Service Instances</a></td>
+        <td>-</td>
+      </tr>
+    <!-- Service Plan -->
+    <tr>
+        <td>
+          <i class="stratos-icons">products</i>
+        </td>
+        <td>products</td>
+        <td>eos</td>
+        <td>Service Plan - A Service can offers one or more plans (e.g. Free, Developer, Enterprise)</td>
+        <td>-</td>
+      </tr>
+      <!-- Cloud Foundry -->
+    <tr>
+      <td>
+        <i class="stratos-icons">cloud_foundry</i>
+      </td>
+      <td>cloud_foundry</td>
+      <td>stratos</td>
+      <td>Cloud Foundry</td>
+      <td>
+        <a target="_blank" href="https://nwmac.github.io/stratos-icons/svg/cloud_foundry.svg">SVG</a>
+      </td>
+    </tr>
+    <!-- Endpoints -->
+    <tr>
+      <td>
+        <i class="material-icons">settings_ethernet</i>
+      </td>
+      <td>settings_ethernet</td>
+      <td>material</td>
+      <td>Endpoint/Endpoints - a service such as Cloud Foundry, GitHub, Metrics that can be connected to Stratos</td>
+      <td>-</td>
+    </tr>
+    <!-- Refresh -->
+    <tr>
+      <td>
+        <i class="material-icons">refresh</i>
+      </td>
+      <td>refresh</td>
+      <td>material</td>
+      <td>Refresh - used in tables to allow the user to refresh data shown</td>
+      <td>-</td>
+    </tr>
+    <!-- Disconnected endpoint -->
+    <tr>
+      <td>
+        <i class="material-icons">cloud_off</i>
+      </td>
+      <td>cloud_off</td>
+      <td>material</td>
+      <td>Disconnected endpoint - used in the endpoints table to show that an endpoint is not connected</td>
+      <td>-</td>
+    </tr>
+    <!-- Connected endpoint -->
+    <tr>
+      <td>
+        <i class="material-icons">cloud_on</i>
+      </td>
+      <td>cloud_on</td>
+      <td>material</td>
+      <td>Connected endpoint - used in the endpoints table to show that an endpoint is connected</td>
+      <td>-</td>
+    </tr>
+    <!-- Action Menu -->
+    <tr>
+      <td>
+        <i class="material-icons">more_vert</i>
+      </td>
+      <td>more_vert</td>
+      <td>material</td>
+      <td>Action Menu - used in tables and application header to access drop-down menu for actions</td>
+      <td>-</td>
+    </tr>
+    <!-- Add -->
+    <tr>
+      <td>
+        <i class="material-icons">add</i>
+      </td>
+      <td>add</td>
+      <td>material</td>
+      <td>Add - used in app page header and table headers for add action - e.g. create a new application, service, route etc</td>
+      <td>-</td>
+    </tr>
+    <!-- Edit -->
+    <tr>
+        <td>
+          <i class="material-icons">delete</i>
+        </td>
+        <td>delete</td>
+        <td>material</td>
+        <td>Delete - used in app page header and table headers for edit action - e.g. edit application, service, route etc</td>
+        <td>-</td>
+      </tr>
+    <!-- Delete -->
+    <tr>
+        <td>
+          <i class="material-icons">add</i>
+        </td>
+        <td>add</td>
+        <td>material</td>
+        <td>Add - used in app page header and table headers for add action - e.g. create a new application, service, route etc</td>
+        <td>-</td>
+      </tr>
+        <!-- Deploy Application -->
+    <tr>
+      <td>
+        <i class="material-icons">file_upload</i>
+      </td>
+      <td>file_upload</td>
+      <td>material</td>
+      <td>Deploy Application - deploy an application from file/folder or git/github</td>
+      <td>-</td>
+    </tr>
+    <!-- Sort -->
+    <tr>
+      <td>
+        <i class="material-icons">sort</i>
+      </td>
+      <td>sort</td>
+      <td>material</td>
+      <td>Change sort direction between ascending and descending and vice-versa</td>
+      <td>-</td>
+    </tr>
+    <!-- List View-->
+    <tr>
+      <td>
+        <i class="material-icons">list</i>
+      </td>
+      <td>list</td>
+      <td>material</td>
+      <td>Show data in list view</td>
+      <td>-</td>
+    </tr>
+    <!-- Card View-->
+    <tr>
+      <td>
+        <i class="material-icons">grid_on</i>
+      </td>
+      <td>grid_on</td>
+      <td>material</td>
+      <td>Show data in card view</td>
+      <td>-</td>
+    </tr>
+    <!-- CLI Commands-->
+    <tr>
+      <td>
+        <i class="material-icons">keyboard</i>
+      </td>
+      <td>keyboard</td>
+      <td>material</td>
+      <td>Button icon to show CLI Commands for an application or Cloud Foundry</td>
+      <td>-</td>
+    </tr>
+
+    <!-- Memory Quota-->
+    <tr>
+      <td>
+        <i class="material-icons">memory</i>
+      </td>
+      <td>memory</td>
+      <td>material</td>
+      <td>Memory quota for an application</td>
+      <td>-</td>
+    </tr>
+    <!-- Disk Quota-->
+    <tr>
+      <td>
+        <i class="material-icons">storage</i>
+      </td>
+      <td>storage</td>
+      <td>material</td>
+      <td>Disk quota for an application</td>
+      <td>-</td>
+    </tr>
+    <!-- Application Instances-->
+    <tr>
+      <td>
+        <i class="material-icons">content_copy</i>
+      </td>
+      <td>content_copy</td>
+      <td>material</td>
+      <td>Application Instances - an application can have many instances in order to scale it - see
+        <a target="_blank" href="https://docs.cloudfoundry.org/devguide/deploy-apps/cf-scale.html">App scaling</a>
+      </td>
+      <td>-</td>
+    </tr>
+
+
+
+    <!-- Creation Date-->
+    <tr>
+      <td>
+        <i class="material-icons">date_range</i>
+      </td>
+      <td>date_range</td>
+      <td>material</td>
+      <td>Creation date for an application</td>
+      <td>-</td>
+    </tr>
+    <!-- Modified Date-->
+    <tr>
+      <td>
+        <i class="material-icons">access_time</i>
+      </td>
+      <td>access_time</td>
+      <td>material</td>
+      <td>Modified date for an application</td>
+      <td>-</td>
+    </tr>
+    <!-- Production -->
+    <tr>
+      <td>
+        <i class="material-icons">bug_report</i>
+      </td>
+      <td>bug_report</td>
+      <td>material</td>
+      <td>Production status an application (is app a production or development app)</td>
+      <td>-</td>
+    </tr>
+    <!-- App State -->
+    <tr>
+      <td>
+        <i class="material-icons">touch_app</i>
+      </td>
+      <td>touch_app</td>
+      <td>material</td>
+      <td>Application state (stopped, started etc)</td>
+      <td>-</td>
+    </tr>
+    <!-- App Package State -->
+    <tr>
+      <td>
+        <i class="material-icons">card_travel</i>
+      </td>
+      <td>card_travel</td>
+      <td>material</td>
+      <td>Application package state (staged etc) - indicates if an application package has been deployed</td>
+      <td>-</td>
+    </tr>
+    <!-- Routes -->
+    <tr>
+      <td>
+        <i class="stratos-icons">network_route</i>
+      </td>
+      <td>network_route</td>
+      <td>stratos</td>
+      <td>Application routes - see:
+        <a target="_blank" href="https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html">Routes and Domains</a>
+      </td>
+      <td>
+        <a target="_blank" href="https://nwmac.github.io/stratos-icons/svg/network_route.svg">SVG</a>
+      </td>
+    </tr>
+    <!-- Domains -->
+    <tr>
+      <td>
+        <i class="material-icons">domain</i>
+      </td>
+      <td>domain</td>
+      <td>material</td>
+      <td>Domain - see:
+        <a target="_blank" href="https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html">Routes and Domains</a>
+      </td>
+      <td>-</td>
+    </tr>
+    <!-- SSH Enabled -->
+    <tr>
+      <td>
+        <i class="material-icons">developer_mode</i>
+      </td>
+      <td>developer_mode</td>
+      <td>material</td>
+      <td>Indicates if SSHing into an application is permitted</td>
+      <td>-</td>
+    </tr>
+    <!-- SSH Enabled -->
+    <tr>
+      <td>
+        <i class="material-icons">title</i>
+      </td>
+      <td>title</td>
+      <td>material</td>
+      <td>Used to indicate a name property - e.g. name of a Cloud Foundry endpoint</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="stratos-icons">organization</i>
+      </td>
+      <td>organization</td>
+      <td>eos</td>
+      <td>Cloud Foundry Organization - see
+        <a target="_blank" href="https://docs.cloudfoundry.org/concepts/roles.html">Orgs</a>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">language</i>
+      </td>
+      <td>language</td>
+      <td>material</td>
+      <td>Cloud Foundry Space - see
+        <a target="_blank" href="https://docs.cloudfoundry.org/concepts/roles.html">Spaces</a>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">build</i>
+      </td>
+      <td>build</td>
+      <td>material</td>
+      <td>Cloud Foundry Buildpack - see
+        <a target="_blank" href="https://docs.cloudfoundry.org/buildpacks/">Buildpacks</a>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">code</i>
+      </td>
+      <td>code</td>
+      <td>material</td>
+      <td>Cloud Foundry Stack (prebuilt root file system) - see
+        <a target="_blank" href="https://docs.cloudfoundry.org/devguide/deploy-apps/stacks.html">Stacks</a>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">code</i>
+      </td>
+      <td>code</td>
+      <td>material</td>
+      <td>Git URL - Used to indicate a URL to a public git repository</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="stratos-icons">github</i>
+      </td>
+      <td>github</td>
+      <td>material</td>
+      <td>GitHub Repository - Used to indicate a GitHub repository</td>
+      <td>
+        <a target="_blank" href="https://nwmac.github.io/stratos-icons/svg/github.svg">SVG</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">people</i>
+      </td>
+      <td>people</td>
+      <td>material</td>
+      <td>Users - indicates a user count or action button to manage users</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">person</i>
+      </td>
+      <td>person</td>
+      <td>material</td>
+      <td>User - indicates a user or user property - e.g. their username</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">link</i>
+      </td>
+      <td>link</td>
+      <td>material</td>
+      <td>Link - indicates the URL for a Cloud Foundry API</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">info_outline</i>
+      </td>
+      <td>info_outline</td>
+      <td>material</td>
+      <td>Info - used as the icon for a general info property - such as the Cloud Foundry API Version</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">lock_open</i>
+      </td>
+      <td>lock_open</td>
+      <td>material</td>
+      <td>Unlocked - indicates that a builpack is unlocked - i.e. changes can be made</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">lock_closed</i>
+      </td>
+      <td>lock_closed</td>
+      <td>material</td>
+      <td>Locked - indicates that a builpack is uocked - i.e. changes can not be made</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">check_circle</i>
+      </td>
+      <td>check_circle</td>
+      <td>material</td>
+      <td>Enabled - indicates an entity that is enabled - e.g. a feature flag, buildpack etc</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">highlight_off</i>
+      </td>
+      <td>highlight_off</td>
+      <td>material</td>
+      <td>Disabled - indicates an entity that is disabled - e.g. a feature flag, buildpack etc</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">lens</i>
+      </td>
+      <td>lens</td>
+      <td>material</td>
+      <td>Application State - Indicates application state is ok</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">cancel</i>
+      </td>
+      <td>cancel</td>
+      <td>material</td>
+      <td>Application State - Indicates application state has an erorr</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">warning</i>
+      </td>
+      <td>warning</td>
+      <td>material</td>
+      <td>Application State - Indicates application state has a problem</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>
+        <i class="material-icons">broken_image</i>
+      </td>
+      <td>broken_image</td>
+      <td>material</td>
+      <td>Application State - Indicates application state is incomplete</td>
+      <td>-</td>
+    </tr>
+
+      
+  
+  </table>
+
+
+</body>
+
+</html>
