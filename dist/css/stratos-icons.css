@@ -8,12 +8,12 @@ Visit our Iconic font repo: https://gitlab.com/SUSE-UIUX/eos-icons
 
 @font-face {
   font-family: "stratos-icons";
-  src: url("../fonts/stratos-icons.eot?3d639834e873b4c56ee8338faea64769");
+  src: url("../fonts/stratos-icons.eot?574c72fa46b722f9e848a216c033a01d");
   src: url("../fonts/stratos-icons.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/stratos-icons.woff2?3d639834e873b4c56ee8338faea64769") format("woff2"),
-		url("../fonts/stratos-icons.woff?3d639834e873b4c56ee8338faea64769") format("woff"),
-		url("../fonts/stratos-icons.ttf?3d639834e873b4c56ee8338faea64769") format("truetype"),
-		url("../fonts/stratos-icons.svg?3d639834e873b4c56ee8338faea64769#stratos-icons") format("svg");
+		url("../fonts/stratos-icons.woff2?574c72fa46b722f9e848a216c033a01d") format("woff2"),
+		url("../fonts/stratos-icons.woff?574c72fa46b722f9e848a216c033a01d") format("woff"),
+		url("../fonts/stratos-icons.ttf?574c72fa46b722f9e848a216c033a01d") format("truetype"),
+		url("../fonts/stratos-icons.svg?574c72fa46b722f9e848a216c033a01d#stratos-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
