@@ -1,6 +1,12 @@
-# EOS iconic font
+# Stratos iconic font
 
-Demo: https://suse-uiux.gitlab.io/eos-icons/
+Extra Icons:
+
+- GitLab - https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/svg/gitlab.svg
+
+License: https://github.com/encharm/Font-Awesome-SVG-PNG#license
+
+
 
 This is the iconic font used in the EOS Design System. The official SUSE Linux Design System, and for all open source projects to use and re-use.
 

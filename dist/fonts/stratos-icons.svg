@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20180321 at Sun Sep  9 18:37:34 2018
+Created by FontForge 20180321 at Fri Nov 23 09:57:20 2018
  By Neil MacDougall
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20180321 at Sun Sep  9 18:37:34 2018
     bbox="-0.595506 -64 512 448"
     underline-thickness="25"
     underline-position="-76"
-    unicode-range="U+005F-F12B"
+    unicode-range="U+005F-F12C"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -84,6 +84,8 @@ M352 96h-320v-64h64v32h96v-32h160v64zM352 416h-288v-288h288v288z" />
 d="M256 448q106 0 181 -75t75 -181q0 -76 -51 -147.5t-123 -95.5q-9 -2 -13.5 2t-4.5 10v25.5v45.5q0 32 -17 47q24 3 42.5 9t36.5 19.5t28 38t10 59.5q0 40 -26 69q12 31 -3 68q-21 7 -70 -26q-31 8 -64.5 8t-63.5 -8q-22 14 -39.5 21t-24.5 6l-7 -1q-15 -37 -2 -68
 q-27 -29 -27 -69q0 -35 10 -59.5t28 -38t36.5 -19.5t42.5 -9q-13 -11 -16 -34q-49 -22 -75 21q-17 27 -39 26q-8 0 -10.5 -2t-1 -4.5t4.5 -5.5t7 -5q7 -4 15 -16t11 -20q16 -43 86 -30q0 -13 0.5 -30t0.5 -18q0 -3 -2 -6t-6 -5t-10 -1q-77 26 -126 92.5t-49 150.5
 q0 106 75 181t181 75z" />
+    <glyph glyph-name="gitlab" unicode="gitlab" 
+d="M30 246l226 -290l-248 180q-5 4 -7 10t0 12zM162 246h188l-94 -290zM105 421l57 -175h-132l56 175q3 7 10 7t9 -7zM482 246l29 -88q2 -6 0 -12t-7 -10l-248 -180zM482 246h-132l57 175q2 7 9.5 7t9.5 -7z" />
     <glyph glyph-name="image" unicode="image" horiz-adv-x="320" 
 d="M277 384l43 21v-384q0 -17 -12.5 -29.5t-30.5 -12.5h-234q-18 0 -30.5 12.5t-12.5 29.5v320q0 18 12.5 30.5t30.5 12.5h234zM43 320v-43h170v43h-170zM128 21v43h-43v-43h43zM128 149v-42h85v42h-85zM277 21v43h-128v-43h128zM277 107v42h-42v-42h42zM277 192v43h-106
 v-43h106zM277 277v43h-42v-43h42z" />
