@@ -2,5 +2,5 @@
    "fontname": "stratos-icons",
    "repositoryUrl": "https://gitlab.com/SUSE-UIUX/eos-icons",
    "baseClass": "stratos-icons",
-   "glyphs": ["action_chains","activate_subscriptions","admin","background_tasks","bootstrapping","caasp","cloud_foundry","cog","collocation","constraint","cpu","database","disk","file_system","git_branch","git_commit","git_repo","github","gitlab","image","kubernetes","lab","link","meter","miscellaneous","multistate","network_file_system","network_route","organization","packages","primitive","product_subscriptions","products_classes","products","repositories","resource","sap","service_square","service","smt","software","sphere","troubleshooting","wrench"]
+   "glyphs": ["action_chains","activate_subscriptions","admin","background_tasks","bootstrapping","caasp","cloud_foundry","cog","collocation","constraint","cpu","database","disk","docker","file_system","git_branch","git_commit","git_repo","github","gitlab","image","kubernetes","lab","link","meter","miscellaneous","multistate","network_file_system","network_route","organization","packages","primitive","product_subscriptions","products_classes","products","repositories","resource","sap","service_square","service","smt","software","sphere","troubleshooting","wrench"]
 }
