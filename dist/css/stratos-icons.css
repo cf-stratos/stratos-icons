@@ -8,12 +8,12 @@ Visit our Iconic font repo: https://gitlab.com/SUSE-UIUX/eos-icons
 
 @font-face {
   font-family: "stratos-icons";
-  src: url("../fonts/stratos-icons.eot?33b94c2d7f735fa24bc4099819ea7887");
-  src: url("../fonts/stratos-icons.eot?33b94c2d7f735fa24bc4099819ea7887#iefix") format("embedded-opentype"),
-		url("../fonts/stratos-icons.woff2?33b94c2d7f735fa24bc4099819ea7887") format("woff2"),
-		url("../fonts/stratos-icons.woff?33b94c2d7f735fa24bc4099819ea7887") format("woff"),
-		url("../fonts/stratos-icons.ttf?33b94c2d7f735fa24bc4099819ea7887") format("truetype"),
-		url("../fonts/stratos-icons.svg?33b94c2d7f735fa24bc4099819ea7887#stratos-icons") format("svg");
+  src: url("../fonts/stratos-icons.eot?0cad7892f3c0964a37aa3d4e7a1011cb");
+  src: url("../fonts/stratos-icons.eot?0cad7892f3c0964a37aa3d4e7a1011cb#iefix") format("embedded-opentype"),
+		url("../fonts/stratos-icons.woff2?0cad7892f3c0964a37aa3d4e7a1011cb") format("woff2"),
+		url("../fonts/stratos-icons.woff?0cad7892f3c0964a37aa3d4e7a1011cb") format("woff"),
+		url("../fonts/stratos-icons.ttf?0cad7892f3c0964a37aa3d4e7a1011cb") format("truetype"),
+		url("../fonts/stratos-icons.svg?0cad7892f3c0964a37aa3d4e7a1011cb#stratos-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
